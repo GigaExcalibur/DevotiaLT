@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PCC",
+        "name": "PCC",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "pcc",
+                "FUCC"
+            ]
+        ]
+    }
+]

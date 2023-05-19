@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Emblem_Ike",
+        "name": "Emblem Ike",
+        "desc": "Grants Laguz Friend when equipped.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            18
+        ],
+        "components": [
+            [
+                "value",
+                5000
+            ],
+            [
+                "status_on_hold",
+                "Laguz_Friend"
+            ]
+        ]
+    }
+]

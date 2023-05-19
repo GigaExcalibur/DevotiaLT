@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Emblem_Marth",
+        "name": "Emblem Marth",
+        "desc": "Grants Perceptive when equipped.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Perceptive"
+            ]
+        ]
+    }
+]

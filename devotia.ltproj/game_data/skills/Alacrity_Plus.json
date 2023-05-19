@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Alacrity_Plus",
+        "name": "Alacrity_Plus",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "desperation",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_speed() >= 8 + target.get_speed()"
+            ]
+        ]
+    }
+]

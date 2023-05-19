@@ -1,0 +1,104 @@
+[
+    {
+        "nid": "Kylie",
+        "name": "Kylie",
+        "desc": "Stoic rebel wyvern rider from Stoflam.\nCan't handle interpersonal conflict.",
+        "variant": null,
+        "level": 9,
+        "klass": "Dracorider",
+        "tags": [],
+        "bases": {
+            "HP": 41,
+            "STR": 17,
+            "MAG": 2,
+            "SKL": 12,
+            "SPD": 12,
+            "LCK": 8,
+            "DEF": 17,
+            "RES": 9,
+            "CON": 15,
+            "MOV": 6,
+            "FUCC": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "MAG": 5,
+            "SKL": 40,
+            "SPD": 30,
+            "LCK": 20,
+            "DEF": 45,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "FUCC": 0
+        },
+        "starting_items": [
+            [
+                "Silver Lance",
+                false
+            ],
+            [
+                "Silver Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Full Name",
+                "Kylie Liyr"
+            ],
+            [
+                "Pronouns",
+                "She/Her"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181
+            ],
+            "Lance": [
+                false,
+                181
+            ],
+            "Axe": [
+                false,
+                181
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Duessel",
+        "affinity": "Earth",
+        "fields": []
+    }
+]

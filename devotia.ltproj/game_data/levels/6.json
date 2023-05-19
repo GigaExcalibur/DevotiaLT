@@ -1,0 +1,21 @@
+[
+    {
+        "nid": "6",
+        "name": "Chapter 6",
+        "tilemap": null,
+        "bg_tilemap": null,
+        "party": "Eirika",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [],
+        "regions": [],
+        "unit_groups": []
+    }
+]

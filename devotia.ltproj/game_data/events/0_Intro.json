@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "base",
+                [
+                    "Arena",
+                    "Distant Roads"
+                ]
+            ],
+            [
+                "prep",
+                []
+            ],
+            [
+                "give_exp",
+                [
+                    "Klaudia (Klaudia)",
+                    "99"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Klaudia (Klaudia)",
+                    "Antitoxin (Antitoxin)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

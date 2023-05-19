@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Laguz_Friend",
+        "name": "Laguz Friend",
+        "desc": "Cannot avoid enemy attacks, but halves damage taken.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_avoid",
+                "-999"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    }
+]

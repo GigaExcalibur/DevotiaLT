@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Sarkan_Festal_Child",
+        "name": "Sarkan Festal",
+        "desc": "Levia energized you!\n+2 SPD for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

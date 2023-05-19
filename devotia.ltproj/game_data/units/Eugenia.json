@@ -1,0 +1,104 @@
+[
+    {
+        "nid": "Eugenia",
+        "name": "Eugenia",
+        "desc": "Lady of a small foreign territory.\nOn vacation, but bother her anyway.",
+        "variant": null,
+        "level": 3,
+        "klass": "Strategist",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 15,
+            "MAG": 8,
+            "SKL": 13,
+            "SPD": 11,
+            "LCK": 4,
+            "DEF": 13,
+            "RES": 7,
+            "CON": 12,
+            "MOV": 8,
+            "FUCC": 0
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 55,
+            "MAG": 30,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 25,
+            "DEF": 45,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "FUCC": 0
+        },
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ],
+            [
+                "Steel Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Full Name",
+                "Eugenia Salvia Lentz"
+            ],
+            [
+                "Pronouns",
+                "They/She"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181
+            ],
+            "Lance": [
+                true,
+                181
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Orson",
+        "affinity": "Light",
+        "fields": []
+    }
+]

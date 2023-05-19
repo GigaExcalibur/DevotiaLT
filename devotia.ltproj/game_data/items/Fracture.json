@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Fracture",
+        "name": "Fracture",
+        "desc": "This phase, enemy cannot counterattack next combat.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "uses",
+                7
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Break"
+            ],
+            [
+                "hit",
+                50
+            ]
+        ]
+    }
+]

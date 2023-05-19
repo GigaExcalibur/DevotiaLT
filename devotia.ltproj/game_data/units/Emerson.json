@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "Emerson",
+        "name": "Emerson",
+        "desc": "Foreign hedge knight studying in Meraly. Training to honor his parents' memory.",
+        "variant": "",
+        "level": 1,
+        "klass": "Bow_Armor",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 9,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 3,
+            "LCK": 3,
+            "DEF": 9,
+            "CON": 14,
+            "MOV": 4,
+            "RES": 3,
+            "FUCC": 0
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 45,
+            "MAG": 20,
+            "SKL": 35,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 55,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "FUCC": 0
+        },
+        "starting_items": [
+            [
+                "Iron Lance",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Full Name",
+                "Wesley Emerson"
+            ],
+            [
+                "Pronouns",
+                "They/She/He"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                true,
+                71
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Emerson",
+        "affinity": "Light",
+        "fields": []
+    }
+]

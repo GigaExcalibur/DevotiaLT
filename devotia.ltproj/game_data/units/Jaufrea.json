@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "Jaufrea",
+        "name": "Jaufrea",
+        "desc": "Wandering trobairitz for hire.\nSeeking material for next poem.",
+        "variant": null,
+        "level": 1,
+        "klass": "Trobairitz",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 10,
+            "MAG": 5,
+            "SKL": 16,
+            "SPD": 17,
+            "LCK": 5,
+            "DEF": 9,
+            "RES": 11,
+            "CON": 7,
+            "MOV": 0,
+            "FUCC": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 25,
+            "MAG": 15,
+            "SKL": 45,
+            "SPD": 60,
+            "LCK": 25,
+            "DEF": 25,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "FUCC": 0
+        },
+        "starting_items": [
+            [
+                "Invest",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Full Name",
+                "Jaufrea Rudel"
+            ],
+            [
+                "Pronouns",
+                "They/He"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                1
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Rennac",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Break",
+        "name": "Break",
+        "desc": "Enemy cannot counterattack next combat.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "lost_on_end_next_combat",
+                [
+                    [
+                        "NumberOfCombats (X)",
+                        "2",
+                        "Number of combats before expiration"
+                    ],
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ],
+                    [
+                        "LostOnAlly (T/F)",
+                        "F",
+                        "Lost after combat with an ally"
+                    ],
+                    [
+                        "LostOnEnemy (T/F)",
+                        "T",
+                        "Lost after combat with an enemy"
+                    ],
+                    [
+                        "LostOnSplash (T/F)",
+                        "T",
+                        "Lost after combat if using an AOE item"
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ]
+        ]
+    }
+]

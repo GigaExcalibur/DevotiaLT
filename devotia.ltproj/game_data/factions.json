@@ -1,0 +1,152 @@
+[
+    {
+        "nid": "Peasant",
+        "name": "Peasant",
+        "desc": "The army of Grado, the largest nation on the entire continent",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Marauder",
+        "name": "Marauder",
+        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Graminean",
+        "name": "Graminean",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Drekkan",
+        "name": "Drekkan",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "EmpireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Profiteer",
+        "name": "Profiteer",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Circean",
+        "name": "Circean",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Skogradan",
+        "name": "Skogradan",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Student",
+        "name": "Student",
+        "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Calicosi",
+        "name": "Calicosi",
+        "desc": "",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Sellsword",
+        "name": "Sellsword",
+        "desc": "",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wolffian",
+        "name": "Wolffian",
+        "desc": "",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wisterian",
+        "name": "Wisterian",
+        "desc": "",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Brigand",
+        "name": "Brigand",
+        "desc": "",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Royal_Guard",
+        "name": "Royal Guard",
+        "desc": "",
+        "icon_nid": "TemplarEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

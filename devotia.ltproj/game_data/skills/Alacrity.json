@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Alacrity",
+        "name": "Alacrity",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "desperation",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('SPD') >= 10 + target.get_stat('SPD')"
+            ]
+        ]
+    }
+]

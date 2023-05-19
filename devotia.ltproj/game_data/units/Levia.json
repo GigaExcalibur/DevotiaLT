@@ -1,0 +1,100 @@
+[
+    {
+        "nid": "Levia",
+        "name": "Levia",
+        "desc": "Middle princess of House Sarka.\nPampered, but loves deeply.",
+        "variant": "",
+        "level": 4,
+        "klass": "Princess",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 7,
+            "SPD": 7,
+            "LCK": 3,
+            "DEF": 5,
+            "RES": 1,
+            "CON": 14,
+            "MOV": 5,
+            "FUCC": 0
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 65,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 20,
+            "LCK": 40,
+            "DEF": 25,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "FUCC": 0
+        },
+        "starting_items": [
+            [
+                "Sarkan_Festal",
+                false
+            ],
+            [
+                "Fracture",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [
+            [
+                "Full Name",
+                "Leviathan Sarka"
+            ],
+            [
+                "Pronouns",
+                "She/Her"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                true,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                1
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Garcia",
+        "affinity": "Fire",
+        "fields": []
+    }
+]
