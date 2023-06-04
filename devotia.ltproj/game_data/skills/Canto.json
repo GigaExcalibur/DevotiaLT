@@ -2,7 +2,7 @@
     {
         "nid": "Canto",
         "name": "Canto",
-        "desc": "Can move again after certain actions.",
+        "desc": "All cavalry. Unit can use remainder of movement after certain actions.",
         "icon_nid": "Skills",
         "icon_index": [
             1,

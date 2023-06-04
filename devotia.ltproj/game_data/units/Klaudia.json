@@ -2,38 +2,40 @@
     {
         "nid": "Klaudia",
         "name": "Klaudia",
-        "desc": "Heir apparent to House Orsolle. Extremely devoted to her lord.",
+        "desc": "Heir apparent to House Orsolle.\nExtremely devoted to her lord.",
         "variant": "",
         "level": 1,
         "klass": "Mage_Lord",
         "tags": [
             "Lord",
+            "Convoy",
+            "AdjConvoy",
             "#girl"
         ],
         "bases": {
-            "HP": 16,
-            "STR": 4,
-            "MAG": 2,
-            "SKL": 8,
-            "SPD": 9,
-            "LCK": 10,
-            "DEF": 3,
-            "CON": 5,
+            "HP": 21,
+            "STR": 3,
+            "MAG": 7,
+            "SKL": 4,
+            "SPD": 4,
+            "LCK": 7,
+            "DEF": 6,
+            "CON": 8,
             "MOV": 5,
-            "RES": 0,
+            "RES": 4,
             "FUCC": 2
         },
         "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 15,
-            "CON": 0,
+            "HP": 56,
+            "STR": 42,
+            "MAG": 42,
+            "SKL": 42,
+            "SPD": 56,
+            "LCK": 28,
+            "DEF": 42,
+            "CON": 7,
             "MOV": 0,
-            "RES": 20,
+            "RES": 28,
             "FUCC": 0
         },
         "starting_items": [
@@ -42,7 +44,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Impenetrable"
+            ]
+        ],
         "unit_notes": [
             [
                 "Full Name",
@@ -110,6 +117,11 @@
         "alternate_classes": [],
         "portrait_nid": "Klaudia",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "Age",
+                "21"
+            ]
+        ]
     }
 ]

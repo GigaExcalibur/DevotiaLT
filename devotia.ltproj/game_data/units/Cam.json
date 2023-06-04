@@ -2,7 +2,7 @@
     {
         "nid": "Cam",
         "name": "Cam",
-        "desc": "Ex-pirate of a Drekkan crew. Loyal to those strongest in battle.",
+        "desc": "Ex-pirate of a Drekkan crew.\nLoyal to those strongest in battle.",
         "variant": "Female",
         "level": 1,
         "klass": "Pirate",

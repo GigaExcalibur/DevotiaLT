@@ -852,10 +852,6 @@
         "Fluf"
     ],
     [
-        "Talk_Boop",
-        null
-    ],
-    [
         "BaelCrit",
         null
     ],
@@ -1009,6 +1005,10 @@
     ],
     [
         "Item",
+        null
+    ],
+    [
+        "Talk_Boop",
         null
     ]
 ]

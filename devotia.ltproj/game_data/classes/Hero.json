@@ -2,7 +2,7 @@
     {
         "nid": "Hero",
         "name": "Hero",
-        "desc": "",
+        "desc": "Legends of the common people.\nWell-rounded and always reliable.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Mercenary",
@@ -120,7 +120,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Hero",
+        "map_sprite_nid": "HeroM",
         "combat_anim_nid": "Vanguard",
         "fields": []
     }

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Shackle_Foe",
+        "name": "Shackle Foe",
+        "desc": "Unit deals 25% less damage.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                3
+            ],
+            [
+                "damage_multiplier",
+                0.75
+            ]
+        ]
+    }
+]

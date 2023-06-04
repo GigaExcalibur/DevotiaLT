@@ -2,7 +2,7 @@
     {
         "nid": "Marksman",
         "name": "Marksman",
-        "desc": "Devotees of the bow. Possess incredible range.",
+        "desc": "Sureshot bow masters who utterly\ndominate ranged combat.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Hunter",

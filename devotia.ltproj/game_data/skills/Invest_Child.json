@@ -2,51 +2,47 @@
     {
         "nid": "Invest_Child",
         "name": "",
-        "desc": "Grants the unit +10 to\nall basic stat growths.",
+        "desc": "You're gonna be a star, sweetie!\n+7% to basic growths.",
         "icon_nid": "Skills",
         "icon_index": [
-            11,
-            3
+            6,
+            2
         ],
         "components": [
-            [
-                "negative",
-                null
-            ],
             [
                 "growth_change",
                 [
                     [
                         "HP",
-                        10
+                        7
                     ],
                     [
                         "STR",
-                        10
+                        7
                     ],
                     [
                         "MAG",
-                        10
+                        7
                     ],
                     [
                         "SKL",
-                        10
+                        7
                     ],
                     [
                         "SPD",
-                        10
+                        7
                     ],
                     [
                         "LCK",
-                        10
+                        7
                     ],
                     [
                         "DEF",
-                        10
+                        7
                     ],
                     [
                         "RES",
-                        10
+                        7
                     ]
                 ]
             ],

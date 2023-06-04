@@ -349,7 +349,7 @@
     },
     {
         "nid": "Spells_desc",
-        "text": "Use a spell from the inventory."
+        "text": "Use a supportive staff from the inventory."
     },
     {
         "nid": "Attack_desc",
@@ -378,5 +378,17 @@
     {
         "nid": "Transfer_desc",
         "text": "Give paired unit to adjacent ally."
+    },
+    {
+        "nid": "Spells",
+        "text": "Staves"
+    },
+    {
+        "nid": "Supply",
+        "text": "Convoy"
+    },
+    {
+        "nid": "Supply_desc",
+        "text": "Store and retrieve item from the convoy."
     }
 ]

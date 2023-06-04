@@ -9,7 +9,9 @@
         "turns_into": [
             "Master_Knight"
         ],
-        "tags": [],
+        "tags": [
+            "Lord"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 18,

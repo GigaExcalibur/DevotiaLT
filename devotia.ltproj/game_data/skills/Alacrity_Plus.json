@@ -19,7 +19,7 @@
             ],
             [
                 "combat_condition",
-                "unit.get_speed() >= 8 + target.get_speed()"
+                "unit.get_stat('SPD') >= 7 + target.get_stat('SPD')"
             ]
         ]
     }

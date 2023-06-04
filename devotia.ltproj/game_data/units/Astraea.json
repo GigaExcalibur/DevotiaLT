@@ -3,22 +3,22 @@
         "nid": "Astraea",
         "name": "Astraea",
         "desc": "Runaway heir to House Circe.\nLacks trust in self and others.",
-        "variant": null,
-        "level": 12,
+        "variant": "",
+        "level": 1,
         "klass": "Anima_Mage",
         "tags": [],
         "bases": {
-            "HP": 50,
-            "STR": 20,
-            "MAG": 3,
-            "SKL": 15,
-            "SPD": 14,
-            "LCK": 15,
-            "DEF": 16,
-            "RES": 14,
-            "CON": 13,
-            "MOV": 6,
-            "FUCC": 0
+            "HP": 10,
+            "STR": 1,
+            "MAG": 7,
+            "SKL": 4,
+            "SPD": 11,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 6,
+            "CON": 6,
+            "MOV": 5,
+            "FUCC": 5
         },
         "growths": {
             "HP": 0,
@@ -35,19 +35,16 @@
         },
         "starting_items": [
             [
-                "Tomahawk",
+                "Tradewinds",
                 false
-            ],
-            [
-                "Silver Axe",
-                false
-            ],
-            [
-                "Hoplon Guard",
-                true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Prescience"
+            ]
+        ],
         "unit_notes": [
             [
                 "Full Name",
@@ -61,7 +58,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181
+                0
             ],
             "Lance": [
                 false,
@@ -69,7 +66,7 @@
             ],
             "Axe": [
                 false,
-                251
+                0
             ],
             "Bow": [
                 false,
@@ -85,7 +82,7 @@
             ],
             "Anima": [
                 false,
-                0
+                1
             ],
             "Dark": [
                 false,
@@ -97,8 +94,13 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Caellach",
+        "portrait_nid": "Lute",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "Age",
+                "20"
+            ]
+        ]
     }
 ]

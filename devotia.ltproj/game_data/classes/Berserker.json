@@ -2,7 +2,7 @@
     {
         "nid": "Berserker",
         "name": "Berserker",
-        "desc": "Devotees of the axe. Relentless savages that deliver devastating stikes.",
+        "desc": "Axe-swinging barbarians who forsake\nall forms of defense for offense.",
         "tier": 2,
         "movement_group": "Pirates",
         "promotes_from": "Pirate",

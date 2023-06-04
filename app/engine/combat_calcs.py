@@ -409,7 +409,11 @@ def compute_crit(unit, target, item, def_item, mode, attack_info):
     crit *= skill_system.crit_multiplier(unit, item, target, mode, attack_info, crit)
     crit = int(crit)
 
-    return utils.clamp(crit, 0, 25)
+    if attack_info[0] == 0:
+        # If on first attack
+        return utils.clamp(crit, 0, 25)
+    else:
+        return utils.clamp(crit, 0, 100)
 
 def compute_damage(unit, target, item, def_item, mode, attack_info, crit=False, assist=False):
     if not item:

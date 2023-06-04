@@ -2,12 +2,13 @@
     {
         "nid": "Master_Knight",
         "name": "Great Lord",
-        "desc": "??",
+        "desc": "Highly trained combat noble. Possesses aptitude in all physical weapons.",
         "tier": 2,
         "movement_group": "Heavy Cav",
         "promotes_from": "Princess",
         "turns_into": [],
         "tags": [
+            "Lord",
             "Horse",
             "Mounted"
         ],
@@ -126,7 +127,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ephraim_Great_Lord",
+        "map_sprite_nid": "Master_Knight",
         "combat_anim_nid": null,
         "fields": []
     }

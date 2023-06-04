@@ -2,7 +2,7 @@
     {
         "nid": "Raider",
         "name": "Raider",
-        "desc": "Ruffians with a strong offense but poor defense.",
+        "desc": "Mounted brigands who use swords and\nlances from the back of a wolf.",
         "tier": 1,
         "movement_group": "Bandits",
         "promotes_from": null,

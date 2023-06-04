@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Live_To_Protect",
+        "name": "Live To Protect",
+        "desc": "Adjacent allies 20 years old or younger survive the next lethal hit at 1 HP from 50% HP or higher.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "aura",
+                "Live_To_Protect_Child"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

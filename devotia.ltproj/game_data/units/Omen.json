@@ -2,8 +2,8 @@
     {
         "nid": "Omen",
         "name": "Omen",
-        "desc": "Primary retainer to House Orsolle. Keeps secrets even from himself.",
-        "variant": "Female",
+        "desc": "Primary retainer to House Orsolle.\nKeeps secrets even from himself.",
+        "variant": "",
         "level": 1,
         "klass": "Runeblade",
         "tags": [],
@@ -16,21 +16,21 @@
             "LCK": 13,
             "DEF": 11,
             "CON": 11,
-            "MOV": 8,
+            "MOV": 6,
             "RES": 8,
             "FUCC": 0
         },
         "growths": {
-            "HP": 90,
-            "STR": 50,
-            "MAG": 25,
-            "SKL": 45,
-            "SPD": 45,
-            "LCK": 25,
-            "DEF": 40,
-            "CON": 0,
+            "HP": 56,
+            "STR": 28,
+            "MAG": 105,
+            "SKL": 49,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 35,
+            "CON": 7,
             "MOV": 0,
-            "RES": 30,
+            "RES": 28,
             "FUCC": 0
         },
         "starting_items": [
@@ -81,7 +81,7 @@
             ],
             "Lance": [
                 true,
-                181
+                0
             ],
             "Axe": [
                 false,
@@ -105,7 +105,7 @@
             ],
             "Dark": [
                 false,
-                0
+                1
             ],
             "Default": [
                 false,
@@ -115,6 +115,11 @@
         "alternate_classes": [],
         "portrait_nid": "Omen",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "Age",
+                "49"
+            ]
+        ]
     }
 ]

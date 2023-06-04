@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Sluggish",
+        "name": "Sluggish",
+        "desc": "Unit's movement is halved.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                3
+            ]
+        ]
+    }
+]

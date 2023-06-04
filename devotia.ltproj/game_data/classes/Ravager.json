@@ -2,7 +2,7 @@
     {
         "nid": "Ravager",
         "name": "Ravager",
-        "desc": "Ruffians with a strong offense but poor defense.",
+        "desc": "Beast master highwaymen who\nfight dirty with swords and lances.",
         "tier": 2,
         "movement_group": "Bandits",
         "promotes_from": "Raider",

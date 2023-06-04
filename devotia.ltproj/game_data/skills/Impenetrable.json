@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Impenetrable",
+        "name": "Impenetrable",
+        "desc": "Armor class skill. Reduces all physical damage taken by 25%.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.75
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and not (target.get_weapon().magic or target.get_weapon().magic_at_range)"
+            ]
+        ]
+    }
+]

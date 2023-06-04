@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Shoves an opponent one space.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "condition",
+                "not('Mounted' in unit.tags)"
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "ability",
+                "Shove"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

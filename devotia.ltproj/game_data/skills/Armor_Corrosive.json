@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Armor_Corrosive",
+        "name": "Armor Corrosive",
+        "desc": "Unit takes 25% more damage from attacks.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "time",
+                3
+            ],
+            [
+                "resist_multiplier",
+                1.25
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

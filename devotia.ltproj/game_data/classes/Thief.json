@@ -2,7 +2,7 @@
     {
         "nid": "Thief",
         "name": "Thief",
-        "desc": "Expert in stealth and subterfuge. Possess weak attacks but many other skills.",
+        "desc": "Pickpockets who skulk the battlefield.\nCan steal, pick locks, and wield daggers.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -127,7 +127,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Thief",
+        "map_sprite_nid": "ThiefM",
         "combat_anim_nid": "Thief",
         "fields": []
     }

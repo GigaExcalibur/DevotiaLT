@@ -2,7 +2,7 @@
     {
         "nid": "Runeblade",
         "name": "Runeblade",
-        "desc": "Dread fighters who fight in the shadows.\nWields swords, dark magic, and daggers.",
+        "desc": "Aloof sword and dark-wielding deviants.\nCan wield daggers and pick locks.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -125,7 +125,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Swordmaster",
+        "map_sprite_nid": "Runeblade",
         "combat_anim_nid": "Swordmaster",
         "fields": []
     }

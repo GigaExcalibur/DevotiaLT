@@ -2,7 +2,7 @@
     {
         "nid": "Halberdier",
         "name": "Halberdier",
-        "desc": "Average soldiers possessing\nno special abilities.",
+        "desc": "The lance soldier actually managed to\ndistinguish themself! Good for them.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Lancer",

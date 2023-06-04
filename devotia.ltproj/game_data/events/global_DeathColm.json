@@ -3,7 +3,7 @@
         "name": "DeathColm",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "unit.nid == 'Colm'",
+        "condition": "unit.nid == 'Bear'",
         "commands": [
             [
                 "add_portrait",
@@ -16,7 +16,7 @@
                 "speak",
                 [
                     "Colm",
-                    "To think of it... Me... In this place...|Neimi..."
+                    "Ah! Am dead."
                 ]
             ],
             [

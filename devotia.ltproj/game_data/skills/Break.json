@@ -2,7 +2,7 @@
     {
         "nid": "Break",
         "name": "Break",
-        "desc": "Enemy cannot counterattack next combat.",
+        "desc": "Unit cannot counterattack next combat.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,

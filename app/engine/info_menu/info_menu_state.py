@@ -495,11 +495,11 @@ class InfoMenuState(State):
         max_stats = class_obj.max_stats
 
         left_stats = [stat.nid for stat in DB.stats if stat.position == 'left']
-        right_stats = left_stats[6:]  # Only first six get to be on the left
+        right_stats = left_stats[7:]  # Only first six get to be on the left
         right_stats += [stat.nid for stat in DB.stats if stat.position == 'right']
         # Make sure we only display up to 6 on each
-        left_stats = left_stats[:6]
-        right_stats = right_stats[:6]
+        left_stats = left_stats[:7]
+        right_stats = right_stats[:7]
 
         for idx, stat_nid in enumerate(left_stats):
             curr_stat = DB.stats.get(stat_nid)
@@ -546,13 +546,14 @@ class InfoMenuState(State):
         if DB.constants.value('pairup') and DB.constants.value('attack_stance_only'):
             pass
         else:
+            other_stats.insert(0, 'TALK')
             other_stats.insert(0, 'TRV')
             other_stats.insert(0, 'AID')
         if self.unit.get_max_mana() > 0:
             other_stats.insert(0, 'MANA')
         if DB.constants.value('pairup') and not DB.constants.value('attack_stance_only'):
             other_stats.insert(2, 'GAUGE')
-        other_stats = other_stats[:6 - len(right_stats)]
+        other_stats = other_stats[:7 - len(right_stats)]
 
         for idx, stat in enumerate(other_stats):
             true_idx = idx + len(right_stats)
@@ -582,16 +583,33 @@ class InfoMenuState(State):
             elif stat == 'TRV':
                 if self.unit.traveler:
                     trav = game.get_unit(self.unit.traveler)
-                    render_text(surf, ['text'], [trav.name], ['pink'], (96, 16 * true_idx + 24))
+                    render_text(surf, ['text'], [trav.name], ['purple'], (96, 16 * true_idx + 24))
                 else:
-                    render_text(surf, ['text'], ['--'], ['pink'], (96, 16 * true_idx + 24))
+                    render_text(surf, ['text'], ['--'], ['pink'], (98, 16 * true_idx + 24))
                 render_text(surf, ['text'], [text_funcs.translate('Trv')], ['red'], (72, 16 * true_idx + 24))
                 self.info_graph.register((96 + 72, 16 * true_idx + 24, 64, 16), 'Trv_desc', state)
+                    
+            elif stat == 'TALK':
+                if (len([talk for talk in game.talk_options if talk[0] == self.unit.nid]) != 0):
+                    talkee = [talk for talk in game.talk_options if talk[0] == self.unit.nid][0][1]
+                    render_text(surf, ['text'], [game.get_unit(talkee).name], ['purple'], (96, 16 * true_idx + 24))
+                else:
+                    render_text(surf, ['text'], ['--'], ['pink'], (98, 16 * true_idx + 24))
+                render_text(surf, ['text'], [text_funcs.translate('Talk')], ['red'], (72, 16 * true_idx + 24))
+                self.info_graph.register((96 + 72, 16 * true_idx + 24, 64, 16), 'Talk_desc', state)
 
             elif stat == 'RAT':
-                rat = str(equations.parser.rating(self.unit))
-                render_text(surf, ['text'], [rat], ['pink'], (111, 16 * true_idx + 24), Alignments.RIGHT)
-                render_text(surf, ['text'], [text_funcs.translate('Rat')], ['red'], (72, 16 * true_idx + 24))
+                if growths:
+                    growth_total = sum(self.unit.growths.values())
+                    #growth_bonuses =
+                    render_text(surf, ['text'], [str(growth_total)], ['pink'], (104, 16 * true_idx + 24), Alignments.CENTER)
+                    #if growth_bonuses > 0:
+                        #render_text(surf, ['text'], [str(growth_bonuses)], ['small-green'], (120, 16 * true_idx + 24), Alignments.RIGHT)
+
+                else:
+                    rat = str(equations.parser.rating(self.unit))
+                    render_text(surf, ['text'], [rat], ['pink'], (104, 16 * true_idx + 24), Alignments.CENTER)
+                render_text(surf, ['text'], [text_funcs.translate('Sum')], ['red'], (72, 16 * true_idx + 24))
                 self.info_graph.register((96 + 72, 16 * true_idx + 24, 64, 16), 'Rating_desc', state)
 
             elif stat == 'MANA':
@@ -815,13 +833,13 @@ class InfoMenuState(State):
                 charge = ' %d / %d' % (skill.data['charge'], skill.data['total_charge'])
             else:
                 charge = ''
-            self.info_graph.register((96 + left_pos + 8, WINHEIGHT - 32, 16, 16), help_menu.HelpDialog(skill.desc, name=skill.name + charge), 'personal_data')
-            self.info_graph.register((96 + left_pos + 8, WINHEIGHT - 32, 16, 16), help_menu.HelpDialog(skill.desc, name=skill.name + charge), 'growths')
+            self.info_graph.register((96 + left_pos + 8, WINHEIGHT - 24, 16, 16), help_menu.HelpDialog(skill.desc, name=skill.name + charge), 'personal_data')
+            self.info_graph.register((96 + left_pos + 8, WINHEIGHT - 24, 16, 16), help_menu.HelpDialog(skill.desc, name=skill.name + charge), 'growths')
 
         return surf
 
     def draw_class_skill_surf(self, surf):
-        surf.blit(self.class_skill_surf, (96, WINHEIGHT - 36))
+        surf.blit(self.class_skill_surf, (96, WINHEIGHT - 26))
 
     def create_support_surf(self):
         surf = engine.create_surface((WINWIDTH - 96, WINHEIGHT), transparent=True)
@@ -893,7 +911,7 @@ class InfoMenuState(State):
                     entry_length = text_width('text', entry)
                     left_pos = 56 if category_length <= 56 else (category_length + 8)
                     entry_font = 'text' if entry_length <= 76 else 'narrow'
-                    render_text(menu_surf, [entry_font], [entry], ['pink'], (left_pos, total_height))
+                    render_text(menu_surf, [entry_font], [entry], ['purple'], (left_pos, total_height))
                     total_height += 16
                 self.info_graph.register((96, 16 * help_offset + 24, 64, 16), '%s_desc' % category, 'notes', first=(idx == 0))
                 help_offset += len(entries)

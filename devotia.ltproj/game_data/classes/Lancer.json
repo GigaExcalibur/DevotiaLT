@@ -2,7 +2,7 @@
     {
         "nid": "Lancer",
         "name": "Lancer",
-        "desc": "Average soldiers possessing\nno special abilities.",
+        "desc": "Dime-a-dozen lance soldier with\nno notable characteristics.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

@@ -2,7 +2,7 @@
     {
         "nid": "Warmaster",
         "name": "Warmaster",
-        "desc": "Average soldiers possessing\nno special abilities.",
+        "desc": "Masterfully trained men at arms\nwho devote their lives to a cause.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,

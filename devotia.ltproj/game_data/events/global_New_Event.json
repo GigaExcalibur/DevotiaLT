@@ -1,0 +1,74 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Klaudia'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Klaudia",
+                    "LevelUpRight",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "sum(stat_changes.values()) <= 2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "Awful."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(stat_changes.values()) <= 4"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "Mediocre."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(stat_changes.values()) <= 6"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "Good."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "Fantastic!"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

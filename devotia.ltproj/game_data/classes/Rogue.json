@@ -2,7 +2,7 @@
     {
         "nid": "Rogue",
         "name": "Rogue",
-        "desc": "",
+        "desc": "Legendary thieves invisible in battle.\nCan steal unwielded gear from foes.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Thief",
@@ -120,7 +120,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Rogue",
+        "map_sprite_nid": "RogueM",
         "combat_anim_nid": null,
         "fields": []
     }

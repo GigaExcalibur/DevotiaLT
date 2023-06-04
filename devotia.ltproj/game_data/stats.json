@@ -35,13 +35,6 @@
         "position": "left"
     },
     {
-        "nid": "LCK",
-        "name": "Luck",
-        "maximum": 30,
-        "desc": "Luck affects many things.",
-        "position": "right"
-    },
-    {
         "nid": "DEF",
         "name": "Def",
         "maximum": 30,
@@ -56,11 +49,11 @@
         "position": "left"
     },
     {
-        "nid": "CON",
-        "name": "Con",
-        "maximum": 25,
-        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
-        "position": "right"
+        "nid": "LCK",
+        "name": "Luck",
+        "maximum": 30,
+        "desc": "Luck affects many things.",
+        "position": "left"
     },
     {
         "nid": "MOV",
@@ -74,6 +67,13 @@
         "name": "FUCC",
         "maximum": 7,
         "desc": "Multiplies critical hit rate on follow-up attack.",
+        "position": "right"
+    },
+    {
+        "nid": "CON",
+        "name": "Con",
+        "maximum": 25,
+        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
         "position": "right"
     }
 ]

@@ -34,7 +34,7 @@
             [
                 "comment",
                 [
-                    "add_portrait;Hayden;MidLeft;;;Middle"
+                    "#add_portrait;Hayden;MidLeft;;;Middle"
                 ]
             ],
             [

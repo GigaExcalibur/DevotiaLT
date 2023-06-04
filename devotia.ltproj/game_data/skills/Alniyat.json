@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Alniyat",
+        "name": "Alniyat",
+        "desc": "Restores 50% max HP at the start of next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.5
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ]
+        ]
+    }
+]

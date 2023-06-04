@@ -1,0 +1,38 @@
+[
+    {
+        "name": "GiselleRecruit",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Klaudia' and unit2.nid == 'Giselle' ",
+        "commands": [
+            [
+                "change_team",
+                [
+                    "Giselle",
+                    "player"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Recruit"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Giselle was recruited!"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Klaudia (Klaudia)",
+                    "Giselle (Giselle)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

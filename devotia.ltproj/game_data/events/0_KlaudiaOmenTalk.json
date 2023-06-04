@@ -1,0 +1,75 @@
+[
+    {
+        "name": "KlaudiaOmenTalk",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "(unit.nid == 'Klaudia' and unit2.nid == 'Omen') or (unit.nid == 'Omen' and unit2.nid == 'Klaudia')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Klaudia",
+                    "Left",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Omen",
+                    "Right",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "yuh"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Klaudia"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Omen"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Klaudia (Klaudia)",
+                    "Omen (Omen)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Omen (Omen)",
+                    "Klaudia (Klaudia)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Klaudia (Klaudia)",
+                    "Jaufrea (Jaufrea)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Jaufrea (Jaufrea)",
+                    "Klaudia (Klaudia)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

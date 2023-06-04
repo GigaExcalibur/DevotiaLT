@@ -2,7 +2,7 @@
     {
         "nid": "Invest",
         "name": "Invest",
-        "desc": "Jaufrea only. Increases ally growths by 10% for 1 turn.",
+        "desc": "Jaufrea only. Increases ally growths by 7% for 1 turn.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "KlaudiaSelect",
+        "trigger": "unit_select",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Klaudia\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Klaudia",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Klaudia",
+                    "Hm. I had hoped my first time taking{br}command would be more prestigious.|Oh well, Lord Fernyiges ordered these{br}curs put down, and so I shall!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Klaudia"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

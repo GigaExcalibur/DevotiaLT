@@ -73,7 +73,12 @@
     },
     {
         "nid": "Valuable",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Valuable 0, 4": [
+                0,
+                4
+            ]
+        }
     },
     {
         "nid": "wexp_icons",

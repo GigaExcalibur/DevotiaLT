@@ -117,7 +117,7 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": 8
     },
     {
         "nid": "Joshua",
@@ -248,18 +248,6 @@
         "smiling_offset": [
             16,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Rennac",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
         ],
         "info_offset": 0
     },
@@ -634,5 +622,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Jaufrea",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 8
     }
 ]

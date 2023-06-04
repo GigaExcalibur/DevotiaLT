@@ -35,15 +35,24 @@
         },
         "starting_items": [
             [
-                "Spear",
+                "Fire",
                 false
             ],
             [
-                "Knight Crest",
-                true
+                "Heal",
+                false
+            ],
+            [
+                "Alniyat",
+                false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Live_To_Protect"
+            ]
+        ],
         "unit_notes": [
             [
                 "Full Name",
@@ -57,15 +66,15 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181
+                0
             ],
             "Lance": [
                 false,
-                251
+                0
             ],
             "Axe": [
                 false,
-                181
+                0
             ],
             "Bow": [
                 false,
@@ -73,7 +82,7 @@
             ],
             "Staff": [
                 false,
-                0
+                121
             ],
             "Light": [
                 false,
@@ -81,7 +90,7 @@
             ],
             "Anima": [
                 false,
-                0
+                121
             ],
             "Dark": [
                 false,
@@ -95,6 +104,11 @@
         "alternate_classes": [],
         "portrait_nid": "VigardeHealthy",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "Age",
+                "40"
+            ]
+        ]
     }
 ]

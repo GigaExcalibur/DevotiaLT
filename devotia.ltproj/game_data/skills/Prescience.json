@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Prescience",
+        "name": "Prescience",
+        "desc": "Ignores enemy terrain effects.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

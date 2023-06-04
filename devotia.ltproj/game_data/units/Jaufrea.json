@@ -17,7 +17,7 @@
             "DEF": 9,
             "RES": 11,
             "CON": 7,
-            "MOV": 0,
+            "MOV": 6,
             "FUCC": 0
         },
         "growths": {
@@ -89,7 +89,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Rennac",
+        "portrait_nid": "Jaufrea",
         "affinity": "Dark",
         "fields": []
     }

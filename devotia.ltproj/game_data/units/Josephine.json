@@ -2,7 +2,7 @@
     {
         "nid": "Josephine",
         "name": "Josephine",
-        "desc": "Knight in service to House Orsolle. Dreams dashed by the reality of life.",
+        "desc": "Knight in service to House Orsolle.\nDreams dashed by the reality of life.",
         "variant": "",
         "level": 1,
         "klass": "Mage_Armor",
@@ -16,21 +16,21 @@
             "LCK": 2,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
+            "MOV": 5,
             "RES": 1,
-            "FUCC": 0
+            "FUCC": 1
         },
         "growths": {
-            "HP": 80,
-            "STR": 40,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 50,
-            "LCK": 40,
-            "DEF": 25,
-            "CON": 0,
+            "HP": 63,
+            "STR": 28,
+            "MAG": 63,
+            "SKL": 35,
+            "SPD": 21,
+            "LCK": 42,
+            "DEF": 56,
+            "CON": 14,
             "MOV": 0,
-            "RES": 20,
+            "RES": 21,
             "FUCC": 0
         },
         "starting_items": [
@@ -60,16 +60,32 @@
             [
                 "Pronouns",
                 "She/They"
+            ],
+            [
+                "Hobby",
+                "Composing poetry"
+            ],
+            [
+                "Birthday",
+                "New Value"
+            ],
+            [
+                "Age",
+                "28"
+            ],
+            [
+                "Height",
+                "New Value"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                1
+                0
             ],
             "Lance": [
                 true,
-                31
+                0
             ],
             "Axe": [
                 false,
@@ -85,7 +101,7 @@
             ],
             "Light": [
                 false,
-                0
+                1
             ],
             "Anima": [
                 false,
@@ -103,6 +119,11 @@
         "alternate_classes": [],
         "portrait_nid": "Josephine",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "Age",
+                "28"
+            ]
+        ]
     }
 ]

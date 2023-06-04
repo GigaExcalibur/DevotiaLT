@@ -1,0 +1,82 @@
+[
+    {
+        "nid": "Alniyat",
+        "name": "Alniyat",
+        "desc": "Orion only. Restores 50% of a unit's HP now and 50% at the start of next player phase.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "uses",
+                14
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Alniyat"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Orion"
+                ]
+            ],
+            [
+                "event_on_hit",
+                "Global Alniyat_Healing"
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ]
+        ]
+    }
+]

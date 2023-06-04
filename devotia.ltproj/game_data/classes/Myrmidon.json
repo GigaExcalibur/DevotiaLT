@@ -2,7 +2,7 @@
     {
         "nid": "Myrmidon",
         "name": "Myrmidon",
-        "desc": "Swordfighters with superior speed and skill.",
+        "desc": "Sword students in training.\nSpecialized in speed over power.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

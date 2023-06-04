@@ -2,7 +2,7 @@
     {
         "nid": "Hunter",
         "name": "Hunter",
-        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
+        "desc": "Serenely trained bow wielding fighters.\nSpecialized in landing critical hits.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

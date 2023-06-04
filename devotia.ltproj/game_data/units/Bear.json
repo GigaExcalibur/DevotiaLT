@@ -4,7 +4,7 @@
         "name": "Bear",
         "desc": "Mysterious who grew up in the\nforests of Skograd. Raised by bears.",
         "variant": "",
-        "level": 2,
+        "level": 1,
         "klass": "Woodsman",
         "tags": [],
         "bases": {
@@ -12,7 +12,7 @@
             "STR": 4,
             "MAG": 2,
             "SKL": 4,
-            "SPD": 10,
+            "SPD": 0,
             "LCK": 8,
             "DEF": 3,
             "RES": 1,
@@ -35,19 +35,16 @@
         },
         "starting_items": [
             [
-                "Iron Sword",
-                false
-            ],
-            [
-                "Lockpick",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron Axe",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Revival_Stone_1"
+            ]
+        ],
         "unit_notes": [
             [
                 "Full Name",
@@ -61,7 +58,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                71
+                0
             ],
             "Lance": [
                 false,
@@ -69,7 +66,7 @@
             ],
             "Axe": [
                 true,
-                0
+                1
             ],
             "Bow": [
                 false,

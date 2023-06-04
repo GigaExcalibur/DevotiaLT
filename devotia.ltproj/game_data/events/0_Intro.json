@@ -6,6 +6,12 @@
         "condition": "True",
         "commands": [
             [
+                "add_lore",
+                [
+                    "Eirika (Eirika)"
+                ]
+            ],
+            [
                 "base",
                 [
                     "Arena",
@@ -17,17 +23,18 @@
                 []
             ],
             [
-                "give_exp",
+                "game_var",
                 [
-                    "Klaudia (Klaudia)",
-                    "99"
+                    "_convoy",
+                    "True"
                 ]
             ],
             [
-                "give_item",
+                "give_exp",
                 [
                     "Klaudia (Klaudia)",
-                    "Antitoxin (Antitoxin)"
+                    "99",
+                    "FLAG(silent)"
                 ]
             ]
         ],

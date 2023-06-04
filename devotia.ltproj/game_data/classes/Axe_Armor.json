@@ -2,7 +2,7 @@
     {
         "nid": "Axe_Armor",
         "name": "Axe Armor",
-        "desc": "Heavily armored knights with poor movement.",
+        "desc": "Heavily armed knight nobly employed.\nThis variant is trained in axes.",
         "tier": 1,
         "movement_group": "Armors",
         "promotes_from": null,

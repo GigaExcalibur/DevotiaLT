@@ -2,7 +2,7 @@
     {
         "nid": "Emerson",
         "name": "Emerson",
-        "desc": "Foreign hedge knight studying in Meraly. Training to honor his parents' memory.",
+        "desc": "Foreign hedge knight studying in Meraly.\nTraining to honor his parents' memory.",
         "variant": "",
         "level": 1,
         "klass": "Bow_Armor",
@@ -16,21 +16,21 @@
             "LCK": 3,
             "DEF": 9,
             "CON": 14,
-            "MOV": 4,
+            "MOV": 5,
             "RES": 3,
             "FUCC": 0
         },
         "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 20,
-            "SKL": 35,
-            "SPD": 30,
-            "LCK": 30,
-            "DEF": 55,
-            "CON": 0,
+            "HP": 70,
+            "STR": 49,
+            "MAG": 14,
+            "SKL": 63,
+            "SPD": 14,
+            "LCK": 21,
+            "DEF": 49,
+            "CON": 14,
             "MOV": 0,
-            "RES": 20,
+            "RES": 14,
             "FUCC": 0
         },
         "starting_items": [
@@ -48,6 +48,10 @@
             [
                 "Pronouns",
                 "They/She/He"
+            ],
+            [
+                "Hobby",
+                "No time for that."
             ]
         ],
         "wexp_gain": {

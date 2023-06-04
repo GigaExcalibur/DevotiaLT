@@ -2,7 +2,7 @@
     {
         "nid": "Trickster",
         "name": "Assassin",
-        "desc": "",
+        "desc": "Crafty bastards who toy with their\nfoes with bows, swords, (and daggers!)",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,

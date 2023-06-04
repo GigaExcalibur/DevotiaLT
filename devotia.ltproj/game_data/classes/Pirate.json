@@ -2,7 +2,7 @@
     {
         "nid": "Pirate",
         "name": "Pirate",
-        "desc": "Untrained but fanatical combatant.",
+        "desc": "Water-walking ruffians who love\nto pillage and destroy villages.",
         "tier": 1,
         "movement_group": "Pirates",
         "promotes_from": null,

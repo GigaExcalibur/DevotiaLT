@@ -3,12 +3,10 @@
         "nid": "Strategist",
         "name": "Strategist",
         "desc": "A summoned phantom.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Spellstrider"
-        ],
+        "promotes_from": "Spellstrider",
+        "turns_into": [],
         "tags": [
             "Monster"
         ],

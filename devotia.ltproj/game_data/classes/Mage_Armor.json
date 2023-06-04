@@ -2,7 +2,7 @@
     {
         "nid": "Mage_Armor",
         "name": "Mage Armor",
-        "desc": "Heavily armored knights with poor movement.",
+        "desc": "Heavily armed knight nobly employed.\nAn exception to be trained in light magic.",
         "tier": 1,
         "movement_group": "Armors",
         "promotes_from": null,

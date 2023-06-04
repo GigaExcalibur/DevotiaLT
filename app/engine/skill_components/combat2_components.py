@@ -19,6 +19,21 @@ class Miracle(SkillComponent):
             action.do(action.SetHP(unit, 1))
             game.death.miracle(unit)
             action.do(action.TriggerCharge(unit, self.skill))
+            
+class TrueMiracle(SkillComponent):
+    nid = 'TrueMiracle'
+    desc = "Unit cannot go beneath 1hp"
+    tag = SkillTags.COMBAT2
+
+    def after_take_strike(self, actions, playback, unit, item, target, mode, attack_info, strike):
+        did_something = False
+        for act in reversed(actions):
+            if isinstance(act, action.ChangeHP) and -act.num >= act.old_hp and act.unit == unit:
+                act.num = -act.old_hp + 1
+                did_something = True
+
+        if did_something:
+            actions.append(action.TriggerCharge(unit, self.skill))
 
 class IgnoreDamage(SkillComponent):
     nid = 'ignore_damage'

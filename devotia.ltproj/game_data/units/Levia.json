@@ -5,8 +5,12 @@
         "desc": "Middle princess of House Sarka.\nPampered, but loves deeply.",
         "variant": "",
         "level": 4,
-        "klass": "Princess",
-        "tags": [],
+        "klass": "Master_Knight",
+        "tags": [
+            "Convoy",
+            "AdjConvoy",
+            "#girl"
+        ],
         "bases": {
             "HP": 28,
             "STR": 8,

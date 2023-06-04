@@ -2,7 +2,7 @@
     {
         "nid": "Varangian",
         "name": "Varangian",
-        "desc": "Determined fighters who relish battle.",
+        "desc": "Burly warriors who can fulfill both\nclose and long ranged combat roles.",
         "tier": 2,
         "movement_group": "Regular",
         "promotes_from": "Woodsman",

@@ -2,7 +2,7 @@
     {
         "nid": "Trueblade",
         "name": "Trueblade",
-        "desc": "Swordfighters with superior speed and skill.",
+        "desc": "Sword students who completed training.\nPaints the ground red with foes' blood.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Myrmidon",
@@ -125,7 +125,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Swordmaster",
+        "map_sprite_nid": "Trueblade",
         "combat_anim_nid": "Swordmaster",
         "fields": []
     }
